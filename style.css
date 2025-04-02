@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+#header {
+    height: 10vh;    
+}
+
+#link-logo {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 60%;
+}
+
+#img-recipe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#top-content {
+    display: flex;
+    justify-content: center;    
+    background-color: #fffaf2;
+    border-top: 1px solid #ffc55a;
+    margin-bottom: 4em;
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+#top-content p {
+    font-size: 12px;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25vw;
+}
+
+h1 {
+    text-align: center;
+    margin-inline: 2em;
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+#image-description {
+    text-align: center;
+    color: #afafaf;
+    font-size: 14px;
+}
+
+#link-page {
+    border-left: .5px solid #ffc55a;
+    padding-left: 1em;
+    margin: 1em 0 2.5em 0;
+}
+
+#link-page p {
+    margin: 0;
+    color: #b5460f;
+}
+
+a {
+    color: #0092c1;
+}
+
+.section hr {
+    border: 1px solid #d1f4ff;
+}
+
+ul li {
+    margin: 15px 0;
+}
+
+.internal-section {
+    margin: 30px 0;
+}
